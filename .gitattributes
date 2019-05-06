@@ -1,2 +1,3 @@
 ios/Web3go.framework/ filter=lfs diff=lfs merge=lfs -text
 ios/Web3go.framework/* filter=lfs diff=lfs merge=lfs -text
+ios/Web3go.framework/Versions/A/Web3go filter=lfs diff=lfs merge=lfs -text
