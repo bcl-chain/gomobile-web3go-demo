@@ -5,7 +5,7 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-#web3go
+# web3go
 ios/Web3go.framework/
 
 # Runtime data
