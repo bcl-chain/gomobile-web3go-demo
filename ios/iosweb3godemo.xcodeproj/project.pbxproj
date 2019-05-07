@@ -39,7 +39,7 @@
 		832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 832341B51AAA6A8300B99B32 /* libRCTText.a */; };
 		8C270E7E2280249900BD249E /* web3go.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C270E7D2280249900BD249E /* web3go.swift */; };
 		8C270EAD228024C400BD249E /* web3go.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C270EAC228024C400BD249E /* web3go.m */; };
-		8C270EAF2280250C00BD249E /* Web3go.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C270EAE2280250C00BD249E /* Web3go.framework */; };
+		8C270EB72281164B00BD249E /* Web3go.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C270EB62281164B00BD249E /* Web3go.framework */; };
 		ADBDB9381DFEBF1600ED6528 /* libRCTBlob.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ADBDB9271DFEBF0700ED6528 /* libRCTBlob.a */; };
 		ED297163215061F000B7C4FE /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED297162215061F000B7C4FE /* JavaScriptCore.framework */; };
 		ED2971652150620600B7C4FE /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED2971642150620600B7C4FE /* JavaScriptCore.framework */; };
@@ -350,7 +350,7 @@
 		8C270E7C2280249900BD249E /* iosweb3godemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iosweb3godemo-Bridging-Header.h"; sourceTree = "<group>"; };
 		8C270E7D2280249900BD249E /* web3go.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = web3go.swift; sourceTree = "<group>"; };
 		8C270EAC228024C400BD249E /* web3go.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = web3go.m; sourceTree = "<group>"; };
-		8C270EAE2280250C00BD249E /* Web3go.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Web3go.framework; sourceTree = "<group>"; };
+		8C270EB62281164B00BD249E /* Web3go.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Web3go.framework; path = ../../../../mygopro/src/hdwalletweb3framework/Web3go.framework; sourceTree = "<group>"; };
 		ADBDB91F1DFEBF0600ED6528 /* RCTBlob.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTBlob.xcodeproj; path = "../node_modules/react-native/Libraries/Blob/RCTBlob.xcodeproj"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
@@ -376,7 +376,7 @@
 				00C302E51ABCBA2D00DB3ED1 /* libRCTActionSheet.a in Frameworks */,
 				00C302E71ABCBA2D00DB3ED1 /* libRCTGeolocation.a in Frameworks */,
 				00C302E81ABCBA2D00DB3ED1 /* libRCTImage.a in Frameworks */,
-				8C270EAF2280250C00BD249E /* Web3go.framework in Frameworks */,
+				8C270EB72281164B00BD249E /* Web3go.framework in Frameworks */,
 				133E29F31AD74F7200F7D852 /* libRCTLinking.a in Frameworks */,
 				00C302E91ABCBA2D00DB3ED1 /* libRCTNetwork.a in Frameworks */,
 				139105C61AF99C1200B5F7CC /* libRCTSettings.a in Frameworks */,
@@ -535,7 +535,7 @@
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				8C270EAE2280250C00BD249E /* Web3go.framework */,
+				8C270EB62281164B00BD249E /* Web3go.framework */,
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
 				2D16E6891FA4F8E400B85C8A /* libReact.a */,
